@@ -3,13 +3,5 @@
   "rebaseWhen": "conflicted",
   "labels": ["dependencies"],
   "automergeStrategy": "merge-commit",
-  "packageRules": [
-    {
-      "matchManagers": ["npm"],
-      "matchUpdateTypes": ["minor", "patch"],
-      "automerge": true,
-      "pinDigests": true,
-      "schedule": ["every weekend after 4am"]
-    }
-  ]
+  "prHourlyLimit": 2
 }
