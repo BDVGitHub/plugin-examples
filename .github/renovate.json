@@ -7,11 +7,7 @@
   "prHourlyLimit": 2
   "packageRules": [
     {
-      "matchManagers": ["npm"],
-      "matchUpdateTypes": ["minor", "patch"],
-      "automerge": true,
-      "pinDigests": true,
-      "schedule": ["every weekend after 4am"]
+      "matchUpdateTypes": ["major", "minor", "patch"],
     }
   ]
 }
