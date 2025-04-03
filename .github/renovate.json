@@ -4,6 +4,7 @@
   "labels": ["dependencies"],
   "automergeStrategy": "merge-commit",
   "automergeType": "pr",
+  "prHourlyLimit": 2
   "packageRules": [
     {
       "matchManagers": ["npm"],
